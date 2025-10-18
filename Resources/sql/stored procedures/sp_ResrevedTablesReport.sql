@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE sp_ReservedTablesReport(@StartDate DateTime, @EndDate DateTime)
+fCREATE OR ALTER PROCEDURE sp_ReservedTablesReport(@StartDate DateTime, @EndDate DateTime)
 AS
 	Select 
 	res.ReservationDate as Reservation_Date,
